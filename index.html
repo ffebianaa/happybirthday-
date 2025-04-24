@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Ofa!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="birthday-audio" src="happy-birthday-254480.mp3"></audio>
+
+  <div class="container">
+    <!-- Amplop -->
+    <div id="envelope" class="envelope floating" onclick="openEnvelope()">
+      <div class="envelope-back"></div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-front"></div>
+    </div>
+
+    <!-- Kalender -->
+    <div id="calendar" class="hidden">
+      <h2>April 2025</h2>
+      <div class="calendar-grid" id="calendar-grid"></div>
+    </div>
+
+    <!-- Buku -->
+    <div id="book" class="hidden book">
+      <div class="book-container" onclick="turnPage()">
+        <div class="book-cover">See</div>
+        <div id="book-page">
+          <h2>Happy Birthday, Ofa!!</h2>
+          <p>
+            before that I want to say sorry that I can't give you anything, maybe it will be too late. semoga di umur kamu yang sekarang kamu selalu di datengin hal hal baik, terimakasih yaa udah lahir, aku bangga banget sama kamu, even though we don't talk every day, you never disappear, I always feel close to you. be happy yaa cantikk!!, If you need me, I'm there.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
